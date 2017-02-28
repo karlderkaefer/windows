@@ -81,11 +81,11 @@
           "1"
         ],
 		[
-+		  "storagectl",
-+          "{{.Name}}",
-+          "--hostiocache",
-+          "off"
-+		]
+		  "storagectl",
+          "{{.Name}}",
+          "--hostiocache",
+          "off"
+		]
       ],
       "vm_name": "eval-win7x64-enterprise-ssh"
     },
