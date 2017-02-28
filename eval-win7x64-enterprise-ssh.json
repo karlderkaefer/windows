@@ -79,15 +79,7 @@
           "{{.Name}}",
           "--cpus",
           "1"
-        ],
-		[
-		  "storagectl",
-          "{{.Name}}",
-          "--hostiocache",
-          "off",
-		  "--name",
-		  "SATA"
-		]
+        ]
       ],
       "vm_name": "eval-win7x64-enterprise-ssh"
     },
