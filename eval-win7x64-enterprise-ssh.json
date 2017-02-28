@@ -24,6 +24,7 @@
       "iso_checksum_type": "sha1",
       "iso_url": "{{ user `iso_url` }}",
       "shutdown_command": "{{ user `shutdown_command`}}",
+	  "shutdown_timeout": "1h",
       "ssh_password": "vagrant",
       "ssh_username": "vagrant",
       "ssh_wait_timeout": "10000s",
@@ -78,7 +79,13 @@
           "{{.Name}}",
           "--cpus",
           "1"
-        ]
+        ],
+		[
++		  "storagectl",
++          "{{.Name}}",
++          "--hostiocache",
++          "off"
++		]
       ],
       "vm_name": "eval-win7x64-enterprise-ssh"
     },
@@ -152,8 +159,7 @@
         "script/vmtool.bat",
         "script/clean.bat",
         "script/ultradefrag.bat",
-        "script/uninstall-7zip.bat",
-        "script/sdelete.bat"
+        "script/uninstall-7zip.bat"
       ],
       "type": "shell"
     },
