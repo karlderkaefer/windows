@@ -86,7 +86,7 @@
           "--hostiocache",
           "off",
           "--name",
-          "SATA"
+          "SATA Controller"
 				]
       ],
       "vm_name": "eval-win7x86-enterprise-ssh"
