@@ -84,7 +84,9 @@
 					"storagectl",
           "{{.Name}}",
           "--hostiocache",
-          "off"
+          "off",
+          "--name",
+          "SATA"
 				]
       ],
       "vm_name": "eval-win7x86-enterprise-ssh"
