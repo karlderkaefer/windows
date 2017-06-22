@@ -158,7 +158,9 @@
         "script/cmtool.bat",
         "script/vmtool.bat",
         "script/clean.bat",
-        "script/uninstall-7zip.bat"
+        "script/uninstall-7zip.bat",
+        "script/nuget.cmd",
+        "script/chocolatey.cmd"
       ],
       "type": "shell"
     },
