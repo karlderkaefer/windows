@@ -26,7 +26,7 @@
       "ssh_password": "vagrant",
       "ssh_username": "vagrant",
       "ssh_wait_timeout": "10000s",
-	  "shutdown_timeout": "1h",
+			"shutdown_timeout": "1h",
       "tools_upload_flavor": "windows",
       "type": "vmware-iso",
       "vm_name": "eval-win7x86-enterprise-ssh",
@@ -78,12 +78,12 @@
           "--cpus",
           "1"
         ],
-		[
-		  "storagectl",
+				[
+					"storagectl",
           "{{.Name}}",
           "--hostiocache",
           "off"
-		]
+				]
       ],
       "vm_name": "eval-win7x86-enterprise-ssh"
     },
@@ -155,9 +155,7 @@
         "script/cmtool.bat",
         "script/vmtool.bat",
         "script/clean.bat",
-        "script/ultradefrag.bat",
         "script/uninstall-7zip.bat",
-        "script/sdelete.bat"
       ],
       "type": "shell"
     },
