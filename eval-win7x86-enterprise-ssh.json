@@ -157,6 +157,7 @@
         "script/vagrant.bat",
         "script/cmtool.bat",
         "script/vmtool.bat",
+        "script/install-chocolatey.bat",
         "script/clean.bat",
         "script/uninstall-7zip.bat"
       ],
