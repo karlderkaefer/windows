@@ -28,6 +28,10 @@
             </ImageInstall>
             <UserData>
                 <AcceptEula>true</AcceptEula>
+                <ProductKey>
+                    <WillShowUI>OnError</WillShowUI>
+                    <Key>33PXH-7Y6KF-2VJC9-XBBR8-HVTHH</Key>
+                </ProductKey>
             </UserData>
             <DiskConfiguration>
                 <WillShowUI>OnError</WillShowUI>
